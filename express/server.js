@@ -37,8 +37,9 @@ app.use('/.netlify/functions/server', router);  // path must route to lambda
 app.use('/', (req, res) => res.sendFile(path.join(__dirname, '../index.html')));
 
 
-app.use("/api/auth", userRoutes);
-app.use("/api/messages", messageRoutes);
+// app.use("/api/auth", userRoutes);
+// app.use("/api/messages", messageRoutes);
+
 //app.use("/images", express.static(path.join(__dirname, "images")));
 // app.use("/api/sauces", saucesRoutes);
 
