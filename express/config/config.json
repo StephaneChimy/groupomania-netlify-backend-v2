@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "tq1h52av7z1qd9qb",
+    "password": "aet6qlzxg8rd1351",
+    "database": "ib3gs4lfzqlt1asj",
+    "host": "yvu4xahse0smimsc.chr7pe7iynqr.eu-west-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "groupomania",
+    "password": "groupomania",
+    "database": "groupomania_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "groupomania",
+    "password": "groupomania",
+    "database": "groupomania_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
